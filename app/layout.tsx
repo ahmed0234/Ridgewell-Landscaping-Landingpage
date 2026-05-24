@@ -40,9 +40,8 @@ export const metadata: Metadata = {
   icons: {
     icon: "/Nav.png",
   },
-  title: "Ridgewell Hardscaping",
-  description:
-    "Premium hardscaping solutions for your home. From patios and walkways to retaining walls and outdoor living spaces, we create beautiful, durable landscapes that enhance your property.",
+  title: "Ridgewell Landscaping",
+  description: "Premium Landscaping solutions for your home.",
 };
 
 export default function RootLayout({
