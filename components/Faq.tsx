@@ -8,7 +8,6 @@ import {
   useScroll,
   useTransform,
 } from "motion/react";
-import FAQBottomEdge from "./Faqbottomedge";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 interface FAQItem {
@@ -21,33 +20,34 @@ interface FAQItem {
 const faqs: FAQItem[] = [
   {
     id: 1,
-    question: "How much does a custom hardscape cost in Denver?",
+    question: "How much does professional landscaping cost in Denver?",
     answer:
-      "Every project is different patio size, paver selection, retaining walls, fire features, and site conditions all affect investment. That's why we start with a free consultation and custom design, so you know exactly what your outdoor transformation involves before we break ground. No surprises, no guesswork.",
+      "Every property is different yard size, soil condition, sod selection, planting design, and the scope of the work all factor in. That's exactly why we start with a free consultation and a custom landscape plan tailored to your home. You'll know the full investment before a single shovel hits the ground. No hidden costs, no vague estimates.",
   },
   {
     id: 2,
-    question: "Will pavers and stonework survive Colorado winters without cracking?",
+    question: "My lawn is patchy and half dead. Can it actually be fixed?",
     answer:
-      "Yes when they're built the right way. Cheap installs fail after one freeze thaw cycle. Ridgewell uses engineered base work, proper drainage, and premium materials designed for Colorado's harsh seasons. That's how our patios, walkways, and retaining walls resist shifting, cracking, and the constant repairs homeowners are tired of paying for.",
+      "Almost always, yes and more often than not, it's fixable faster than homeowners expect. Patchy, thinning, or dying grass is usually the result of poor soil prep, improper grading, or low-quality seed that was never right for Colorado's climate. Ridgewell starts with a proper site assessment, corrects the underlying issues, and installs premium sod or seed varieties built to thrive in Denver's conditions. The difference is visible within weeks.",
   },
   {
     id: 3,
-    question: "Can you fix drainage issues and replace cracked concrete?",
+    question:
+      "Can you design a full landscape from scratch not just lay sod?",
     answer:
-      "Absolutely it's one of the most common reasons homeowners call us. Pooling water, muddy walkways, and failing slabs don't just look bad they make outdoor space unusable. We design hardscapes that move water properly while transforming cracked concrete and wasted yard space into functional patios, stonework, and outdoor living areas you'll actually enjoy.",
+      "That's where we do our best work. A complete landscape transformation includes custom flower beds, ornamental trees and shrubs, decorative plantings, defined borders, mulched areas, and a cohesive layout designed around your home's architecture and your lifestyle. We don't just install green we design outdoor environments that feel intentional, curated, and genuinely beautiful.",
   },
   {
     id: 4,
-    question: "How long does a hardscaping project take?",
+    question: "How long does a landscaping project take to complete?",
     answer:
-      "Most patio, walkway, and retaining wall projects are completed within 1–2 weeks depending on scope and complexity. We work efficiently without cutting corners and you'll know your timeline upfront during the design consultation, so you're never left wondering when your backyard will finally feel finished.",
+      "Most residential landscape installations are completed within 1–3 weeks depending on the size and scope of the project. Sod installations can be completed in as little as a day or two. Full design-and-install projects take longer but you'll have a clear timeline from your first consultation so you're never left wondering when your yard will finally feel finished.",
   },
   {
     id: 5,
-    question: "Do you build full outdoor living spaces not just basic patios?",
+    question: "Will the plants and lawn hold up through Colorado's seasons?",
     answer:
-      "Yes. Ridgewell specializes in complete outdoor transformations: paver patios, retaining walls, fire pits, built-in seating, premium stonework, and cohesive layouts designed around how you live outside. Whether you're fixing an outdated backyard or building a full entertainment space, we handle design through final walkthrough.",
+      "Only when they're selected and installed correctly and that's exactly what sets Ridgewell apart. We source plant varieties that are specifically suited to Colorado's soil, elevation, and freeze-thaw cycles. Every planting bed is properly prepped, every sod installation is graded and watered correctly, and every tree and shrub is positioned to thrive long term. You're not just buying a beautiful yard today you're investing in one that stays that way.",
   },
 ];
 
@@ -182,7 +182,7 @@ function FAQSection() {
           transition={{ duration: 0.5, ease: "easeOut" }}
           className="flex items-center gap-3 font-sans text-[18px] font-medium tracking-[0.22em] uppercase text-[#E86240] mb-5"
         >
-          Before You Build
+          Before You Plant
           <span
             className="block w-8 h-px bg-[#E86240] opacity-60"
             aria-hidden="true"
@@ -197,7 +197,7 @@ function FAQSection() {
           animate={inView ? "visible" : "hidden"}
           className="font-sans text-sand text-4xl lg:text-7xl font-semibold leading-[1.08] text-background mb-12 tracking-[-0.01em]"
         >
-          Hardscaping questions,{" "}
+          Landscaping questions,{" "}
           <em className="font-light italic text-[#F4DEBF]/60">answered</em>
           <br />
           honestly.
@@ -308,7 +308,7 @@ function TrustStrip() {
   const inView = useInView(ref, { once: true });
 
   const items = [
-    "Patios, Walls & Outdoor Living",
+    "Sod, Plantings & Full Landscape Design",
     "Free Design Consultations",
     "Licensed & Insured · Denver & Front Range",
   ];
@@ -414,9 +414,9 @@ function CTASection() {
           transition={{ duration: 0.7, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
           className="font-poppins text-sand text-3xl lg:text-6xl font-semibold leading-[1.1] text-background mb-6 tracking-[-0.01em]"
         >
-          Stop Settling For{" "}
+          Stop Living With{" "}
           <strong className="font-semibold italic text-[#E86240]">
-            A Backyard That Never Feels Finished
+            A Yard That Never Feels Alive
           </strong>
         </motion.h2>
 
@@ -427,10 +427,10 @@ function CTASection() {
           transition={{ duration: 0.65, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
           className="font-sans text-lg lg:text-xl font-normal leading-tight lg:leading-[1.5] text-[#F4DEBF]/85 max-w-[560px] mx-auto mb-[40px]"
         >
-          Get a custom hardscape designed for Colorado durability premium
-          patios, stonework, and outdoor living spaces that replace cracked
-          concrete, fix drainage, and finally give you a backyard worth coming
-          home to.
+          Get a custom landscape designed for your home and your life lush
+          sod, thriving plantings, curated flower beds, and an outdoor
+          environment so beautiful and inviting you'll actually want to spend
+          time outside.
         </motion.p>
 
         {/* Actions */}
@@ -456,7 +456,7 @@ function CTASection() {
               boxShadow: "0 4px 24px rgba(232,98,64,0.25)",
             }}
           >
-            Book Your Free Outdoor Living Consult
+            Book Your Free Landscape Design Consult
             <motion.svg
               viewBox="0 0 16 16"
               className="w-4 h-4 stroke-white"

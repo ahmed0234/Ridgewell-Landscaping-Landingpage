@@ -29,7 +29,7 @@ function CallButton() {
   return (
     <motion.a
       href={PHONE_HREF}
-      aria-label="Call Ridgewell for a free hardscaping consultation"
+      aria-label="Call Ridgewell for a free landscaping consultation"
       className="relative inline-flex items-center gap-3.5 overflow-hidden rounded-2xl px-6 py-3.5 focus-visible:outline-none focus-visible:ring-2 w-full sm:w-auto"
       style={{
         background: `linear-gradient(138deg, ${TERRA} 0%, #CC4520 55%, #B83A18 100%)`,
@@ -78,7 +78,7 @@ function CallButton() {
           className="font-poppins text-[11px] font-bold tracking-[0.18em] uppercase"
           style={{ color: "rgba(255,255,255,0.65)" }}
         >
-          Speak with a hardscape expert
+          Speak with a landscape expert
         </span>
         <span
           className="font-poppins font-bold text-[15px] tracking-[-0.01em]"
@@ -287,18 +287,19 @@ export default function Footer() {
                 className="font-poppins font-bold leading-[1.1] tracking-[-0.02em]"
                 style={{ fontSize: "clamp(1.65rem, 3vw, 2.1rem)", color: SAND }}
               >
-                Hardscapes Built to
+                Your Yard Deserves
                 <br />
-                <span style={{ color: TERRA }}>Endure. Not to Repair.</span>
+                <span style={{ color: TERRA }}>More Than Just Grass.</span>
               </h2>
               <p
                 className="font-jakarta leading-relaxed max-w-[300px]"
                 style={{ fontSize: "13.5px", color: `${SAND}95` }}
               >
-                Tired of cracked concrete, pooling water, and a backyard you
-                never use? We craft premium patios, retaining walls, fire pits,
-                and stonework engineered for Colorado — built for curb appeal,
-                durability, and the outdoor life you&apos;ve been putting off.
+                Patchy lawns, overgrown beds, and a yard that never feels
+                finished? We design and install lush landscapes from healthy
+                sod and seasonal plantings to sculpted flower beds, trees &amp;
+                shrubs, and walkways so your outdoor space finally feels as
+                beautiful as the home it surrounds.
               </p>
             </div>
 
@@ -349,7 +350,7 @@ export default function Footer() {
                 className="font-satoshi font-bold uppercase tracking-[0.2em]"
                 style={{ fontSize: "13px", color: `${SAND}90` }}
               >
-                Start Your Outdoor Transformation
+                Let&apos;s Bring Your Landscape to Life
               </span>
               {/* CTA headline */}
               <h3
@@ -359,9 +360,9 @@ export default function Footer() {
                   color: SAND,
                 }}
               >
-                Ready to turn wasted space
+                Stop settling for a yard
                 <br />
-                <span style={{ color: TERRA }}>into outdoor living?</span>
+                <span style={{ color: TERRA }}>you don&apos;t love.</span>
               </h3>
               <p
                 className="font-satoshi lg:text-right max-w-[260px] lg:ml-auto"
@@ -371,10 +372,10 @@ export default function Footer() {
                   lineHeight: 1.65,
                 }}
               >
-                One call is all it takes. We&apos;ll assess your drainage,
-                foundation, and layout — then show you exactly what a
-                functional, high-end patio or outdoor living space looks like
-                for your home.
+                One call is all it takes. We&apos;ll walk your property,
+                understand your vision, and design a custom landscape plan
+                lush, low maintenance, and built to look incredible every
+                season of the year.
               </p>
             </div>
 
@@ -391,7 +392,7 @@ export default function Footer() {
                   className="font-satoshi"
                   style={{ fontSize: "15px", color: `${SAND}85` }}
                 >
-                  Free on-site consultation &middot; No obligation
+                  Free landscape consultation &middot; Zero pressure
                 </span>
               </div>
             </div>

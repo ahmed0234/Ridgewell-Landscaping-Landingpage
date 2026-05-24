@@ -15,7 +15,7 @@ const transformations = [
     afterImage: "/beforeandafter/before_1.png",
     beforeAlt: "Dry patchy lawn before hardscaping",
     afterAlt: "Modern xeriscape with gravel and native plants",
-    title: "Xeriscaping with Smart Water Saving Irrigation",
+    title: "Sod Installation & Lawn Renovation",
     location: "Denver, CO",
     waterSaved: "-62% Water",
   },
@@ -24,7 +24,7 @@ const transformations = [
     afterImage: "/beforeandafter/before_2.png",
     beforeAlt: "Overgrown backyard before redesign",
     afterAlt: "Elegant courtyard with succulents and fire pit",
-    title: "Xeriscaping with Elegant Walkways",
+    title: "Flower Beds & Decorative Planting",
     location: "Lakewood, CO",
     waterSaved: "-55% Water",
   },
@@ -33,7 +33,7 @@ const transformations = [
     afterImage: "/beforeandafter/before_3.png",
     beforeAlt: "Bare entrance with dead grass",
     afterAlt: "Architectural desert garden with ornamental grasses",
-    title: "Drought Resistant Plants and Walkways",
+    title: "Trees & Shrub Installation",
     location: "Aurora, CO",
     waterSaved: "-71% Water",
   },
@@ -42,7 +42,7 @@ const transformations = [
     afterImage: "/beforeandafter/before_4.png",
     beforeAlt: "Bare entrance with dead grass",
     afterAlt: "Architectural desert garden with ornamental grasses",
-    title: "Paver Patios with Premium Outdoor Features",
+    title: "Mulch, Rock & Landscape Borders",
     location: "Broomfield, CO",
     waterSaved: "-71% Water",
   },
@@ -169,11 +169,13 @@ export default function TransformationSection() {
               }}
               className="lg:max-w-sm pb-1"
             >
-              <p className="text-base lg:text-xl text-foreground/55 font-body leading-normal font-satoshi">
-                Real transformations that turn plain outdoor spaces into
-                functional, high end hardscapes built for everyday living. {" "}
+              <p className="text-base lg:text-lg  text-foreground/55 font-body leading-normal font-sans">
+                Real landscaping transformations that take neglected outdoor
+                spaces and turn them into beautiful, inviting yards designed for
+                healthier growth,  {" "}
                 <strong className="text-foreground/80 font-semibold font-satoshi">
-                  More beauty. More value. Built to last
+                easier maintenance, and a home that feels
+                complete.
                 </strong>
               </p>
             </motion.div>

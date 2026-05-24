@@ -3,7 +3,7 @@
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import { FaStar, FaMapMarkerAlt, FaShieldAlt, FaAward } from "react-icons/fa";
-import { GiBrickWall, GiFireBowl, GiMountains } from "react-icons/gi";
+import { GiFlowers, GiGrass, GiMountains } from "react-icons/gi";
 import { HiSparkles } from "react-icons/hi2";
 
 // ── palette ────────────────────────────────────────────────────────────────
@@ -18,8 +18,8 @@ const TRUST_ITEMS = [
     id: "01",
     icon: FaStar,
     label: "5-Star Rated on Google",
-    sub: "Homeowners who chose the upgrade",
-    pill: "500+ Outdoor Projects",
+    sub: "Homeowners who finally love their yards again",
+    pill: "300+ Landscapes Transformed",
     pillAccent: true,
     stars: true,
   },
@@ -28,37 +28,37 @@ const TRUST_ITEMS = [
     icon: GiMountains,
     label: "15+ Years of Experience",
     labelSup: true,
-    sub: "crafting premium Colorado hardscapes",
+    sub: "designing premium Colorado landscapes that thrive",
     pill: "Est. 2009",
   },
   {
     id: "03",
-    icon: GiBrickWall,
-    label: "Built to Outlast the Elements",
-    sub: "Engineered base work & pavers that resist cracking and shifting",
-    pill: "Freeze-thaw rated",
+    icon: GiGrass,
+    label: "Built for Colorado Growing Seasons",
+    sub: "Healthy lawns, hardy plantings, and layouts engineered for year-round beauty",
+    pill: "Climate-smart design",
   },
   {
     id: "04",
     icon: FaMapMarkerAlt,
     label: "Denver & Beyond",
-    sub: "Front Range outdoor living specialists",
+    sub: "Front Range landscape design & installation specialists",
     pill: "50-mi radius",
   },
   {
     id: "05",
     icon: FaAward,
-    label: "Award-Winning Craftsmanship",
-    sub: "ALCC Certified Hardscape Professionals",
+    label: "Award-Winning Landscape Design",
+    sub: "ALCC Certified Landscape Professionals",
     pill: "Licensed & Insured",
     pillAccent: true,
   },
   {
     id: "06",
-    icon: GiFireBowl,
-    label: "Full Outdoor Transformation",
-    sub: "Patios, retaining walls, fire pits & stonework — designed around how you live",
-    pill: "Turnkey builds",
+    icon: GiFlowers,
+    label: "Complete Yard Transformation",
+    sub: "Sod, planting, flower beds, trees & shrubs — designed for how you live outdoors",
+    pill: "Turnkey landscapes",
     pillAccent: true,
   },
 ];
@@ -252,7 +252,7 @@ export default function TrustBar() {
   return (
     <section
       ref={ref}
-      aria-label="Why choose Ridgewell for premium hardscaping"
+      aria-label="Why choose Ridgewell for premium landscaping"
       className="relative w-full overflow-hidden"
       style={{ background: "#2a1018" }}
     >
@@ -316,12 +316,13 @@ export default function TrustBar() {
                 animation: "shimmer 3.5s linear infinite",
               }}
             >
-              Hardscaping Company
+              Landscaping Company
             </em>
           </h2>
           <p className="mt-4 font-sans lg:mt-6 text-[14px] lg:text-[18px] font-light text-[#F4DEBF]/80 tracking-wide font-semibold max-w-2xl mx-auto leading-relaxed">
-            Turn cracked concrete, empty backyards, and drainage headaches into
-            patios, stonework, and outdoor spaces you&apos;ll actually live in
+            Turn patchy lawns, dying plants, and neglected yards into lush,
+            inviting outdoor spaces with healthier growth and year-round curb
+            appeal
           </p>
         </motion.div>
 
@@ -341,9 +342,9 @@ export default function TrustBar() {
         >
           {[
             { icon: FaShieldAlt, text: "Licensed & Insured" },
-            { icon: GiBrickWall, text: "Premium Paver Installation" },
-            { icon: HiSparkles, text: "Free Design Consultation" },
-            { icon: GiFireBowl, text: "Outdoor Living Design" },
+            { icon: GiGrass, text: "Expert Sod & Lawn Installation" },
+            { icon: HiSparkles, text: "Free Landscape Consultation" },
+            { icon: GiFlowers, text: "Full Yard Transformation" },
           ].map(({ icon: Icon, text }, i) => (
             <motion.span
               key={text}
@@ -374,7 +375,7 @@ export default function TrustBar() {
             <span className="relative inline-flex rounded-full h-2 w-2 lg:h-3 lg:w-3 bg-[#E86240]" />
           </span>
           <span className="text-[10.5px] lg:text-[13px] font-bold tracking-[0.16em] lg:tracking-[0.2em] uppercase text-[#F4DEBF]/60">
-            Now booking outdoor living projects — Denver &amp; Front Range
+            Now booking landscape transformations — Denver &amp; Front Range
           </span>
         </motion.div>
       </div>

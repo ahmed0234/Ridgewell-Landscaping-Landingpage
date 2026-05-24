@@ -183,7 +183,7 @@ const HeroServiceBlock = ({ service, index }) => {
             {service.title}
           </h3>
           <p
-            className="font-satoshi font-medium leading-relaxed max-w-md"
+            className="font-poppins font-medium leading-normal max-w-md"
             style={{
               color: "rgba(244,222,191,0.72)",
               fontSize: "clamp(0.9rem, 1.6vw, 1.05rem)",
@@ -469,7 +469,7 @@ const BeforeAfterBlock = ({ beforeImage, afterImage, index }) => {
               letterSpacing: "-0.02em",
             }}
           >
-            Lawn to Hardscape Conversion
+            Lawn to Landscape Conversion
           </h3>
           <p
             className="font-sans font-medium leading-snug max-w-lg"
@@ -478,9 +478,9 @@ const BeforeAfterBlock = ({ beforeImage, afterImage, index }) => {
               fontSize: "clamp(0.88rem, 1.5vw, 1rem)",
             }}
           >
-            Still dealing with cracked concrete, wasted outdoor space, and
-            constant upkeep? We build beautiful custom hardscapes designed for
-            Colorado living and built to last.
+            Still dealing with patchy grass, dying plants, and a yard that never
+            looks finished? We create beautiful custom landscapes designed for
+            Colorado living, low maintenance, and year round beauty.
           </p>
         </div>
         <AccentPill>Before → After</AccentPill>
@@ -514,7 +514,7 @@ const BeforeAfterBlock = ({ beforeImage, afterImage, index }) => {
           <span className="text-[#F4DEBF]/45 uppercase text-xs tracking-widest font-bold mr-2">
             Before
           </span>
-          Plain lawn, empty space, muddy walkways, and an outdoor area that goes
+          Patchy grass, overgrown beds, struggling plants, and a yard that feels dull and hard to maintain.
           unused.
         </p>
         <p
@@ -524,8 +524,7 @@ const BeforeAfterBlock = ({ beforeImage, afterImage, index }) => {
           <span className="text-[#E86240] uppercase text-xs tracking-widest font-bold mr-2">
             After
           </span>
-          Beautiful custom hardscaping with patios, walkways, and outdoor spaces
-          built for Colorado living.
+          Beautiful professionally designed landscaping with healthy greenery, balanced design, and a yard you actually enjoy coming home to.
         </p>
       </div>
     </motion.div>
@@ -778,8 +777,8 @@ export default function ServicesSection({
 
   const heroService = {
     number: "01",
-    title: "Custom Hardscape Design",
-    body: "We design functional, high end outdoor spaces that add beauty, structure, and lasting value to your home",
+    title: "Custom Landscape Design",
+    body: "We design beautiful, low maintenance landscapes that make your home feel more inviting, natural, and enjoyable year round",
     accent: "Design + Planning",
     image: img("design", "Custom Hardscape Design"),
   };
@@ -787,42 +786,42 @@ export default function ServicesSection({
   const standardServices = [
     {
       number: "03",
-      title: "Retaining Walls & Structural Stonework",
+      title: "Decorative Planting & Garden Bed Design",
       body: "Prevent erosion, improve structure, and add clean stonework that holds up through Colorado’s harsh seasons",
       accent: "Permanent Beauty",
       image: img("rockGravel", "Decorative Rock and Gravel"),
     },
     {
       number: "04",
-      title: "Fire Pits & Seating Areas",
+      title: "Trees & Shrub Installation",
       body: "Create a warm, inviting space for relaxing, entertaining, and enjoying your backyard year round.",
       accent: "Native + Thriving",
       image: img("plants", "Drought Resistant Native Plants"),
     },
     {
       number: "05",
-      title: "Outdoor Kitchens & Gathering Spaces",
+      title: "Landscape Lighting & Outdoor Accent Features",
       body: "Upgrade unused outdoor space into a functional area built for cooking, hosting, and gathering outdoors",
       accent: "Water Smart",
       image: img("irrigation", "Smart Drip Irrigation System"),
     },
     {
       number: "06",
-      title: "Paver Patios & Outdoor Living Spaces",
+      title: "Mulch, Rock & Landscape Border Installation",
       body: "Transform plain lawns into beautiful outdoor living spaces with durable pavers designed to last for years",
       accent: "Finishing Touch",
       image: img("walkway", "Walkway and Outdoor Features"),
     },
     {
       number: "07",
-      title: "Poolside Hardscaping & Stone Decking",
+      title: "Sod Installation & Healthy Lawn Systems",
       body: "Add safe, stylish poolside surfaces with durable stone decking built for comfort, drainage, and long term use",
       accent: "Finishing Touch",
       image: img("walkway", "Walkway and Outdoor Features"),
     },
     {
       number: "08",
-      title: "Landscape Borders & Edging Systems",
+      title: "Flower Beds, Perennials & Decorative Planting",
       body: "Give your landscape a cleaner, more finished look with durable edging that keeps everything organized and defined",
       accent: "Finishing Touch",
       image: img("walkway", "Walkway and Outdoor Features"),
@@ -869,7 +868,7 @@ export default function ServicesSection({
             }}
           >
             What's Included In A{" "}
-            <span className="text-orange">Hardscaping</span> Project?
+            <span className="text-orange">Landscaping</span> Project?
           </motion.h2>
 
           <motion.div
@@ -943,8 +942,8 @@ export default function ServicesSection({
           <div className="flex flex-wrap justify-center gap-10 lg:gap-20">
             {[
               { value: "Built for ", label: "Colorado Weather" },
-              { value: "Low Maintenance", label: "Outdoor Living" },
-              { value: "Year-Round", label: "Curb Appeal" },
+              { value: "Low Maintenance", label: "Lawn & Planting Design" },
+              { value: "Year-Round", label: "Beauty & Healthy Growth" },
             ].map(({ value, label }, i) => (
               <motion.div
                 key={i}

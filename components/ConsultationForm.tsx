@@ -16,10 +16,12 @@ const C = {
 };
 
 const SERVICES = [
-  "Front Yard Xeriscape",
-  "Backyard Xeriscape",
-  "Full Property Transformation",
-  "Replace Grass / Lower Maintenance",
+  "Front Yard Landscaping",
+  "Backyard Landscaping",
+  "Full Landscape Transformation",
+  "New Lawn & Planting Design",
+  "Outdoor Living & Landscape Design",
+  "Curb Appeal Improvements",
   "Not Sure Yet",
 ];
 

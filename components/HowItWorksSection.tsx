@@ -70,7 +70,7 @@ const PROCESS_STEPS: {
     id: "plan",
     number: "02",
     shortLabel: "Design",
-    title: "Custom Hardscape Plan",
+    title: "Custom Landscape Plan",
     description:
       "We recommend a design built around your property and Colorado climate.",
     variant: "clay",

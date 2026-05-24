@@ -327,10 +327,10 @@ export default function HeroSection() {
               marginBottom: "1.1rem",
               maxWidth: "850px",
             }}
-            className="font-poppins font-extrabold text-4xl sm:text-5xl md:text-6xl lg:text-7xl"
+            className="font-poppins font-extrabold text-4xl sm:text-5xl md:text-6xl lg:text-5xl"
           >
-            Beautiful {" "}
-            <span style={{ color: C.terra }}>Hardscaping</span> For Colorado Homes That Actually Last
+            Beautiful Colorado {" "}
+            <span style={{ color: C.terra }}>Landscaping</span> That Stays Beautiful Through Colorado’s Tough Climate
           </motion.h1>
 
           {/* Sub 1 */}
@@ -344,9 +344,9 @@ export default function HeroSection() {
               marginBottom: "1rem",
               maxWidth: "48ch",
             }}
-            className="font-sans font-bold text-lg lg:text-2xl"
+            className="font-sans font-bold text-lg lg:text-xl"
           >
-            No cracked patios, uneven walkways, or outdoor spaces that fall apart after one harsh winter
+            No patchy lawns, dying plants, messy beds, or landscaping that constantly needs expensive upkeep just to look decent
           </motion.p>
 
           {/* Sub 2 */}
@@ -360,9 +360,9 @@ export default function HeroSection() {
               marginBottom: "1rem",
               maxWidth: "48ch",
             }}
-            className="font-satoshi font-bold italic text-lg lg:text-2xl leading-tight"
+            className="font-satoshi font-bold italic text-lg lg:text-xl leading-tight"
           >
-            Ridgewell Landscape & Design builds custom hardscapes designed for Colorado weather, low maintenance, and long term durability
+            Ridgewell Landscape & Design creates custom Colorado landscapes built for curb appeal, smart water usage, seasonal durability, and low maintenance beauty that lasts for years
           </motion.p>
 
           {/* CTA Row */}
@@ -634,20 +634,20 @@ export default function HeroSection() {
           >
             <FeatureItem
               icon={PiDropLight}
-              title="Built to Last"
-              body="Designed to handle Colorado weather for years."
+              title="Designed Landscapes"
+              body="Outdoor spaces designed to bring more beauty, balance, and enjoyment to your home."
               delay={1.25}
             />
             <FeatureItem
               icon={PiSunLight}
-              title="Functional Outdoor Living"
-              body="Patios and spaces built for everyday living."
+              title="Low Maintenance Beauty"
+              body="Cleaner, healthier landscaping with less watering, trimming"
               delay={1.35}
             />
             <FeatureItem
               icon={PiShieldCheckLight}
-              title="Low Maintenance"
-              body="A cleaner outdoor space with less upkeep."
+              title="Built For Colorado Climate"
+              body="Plants and landscaping designed to handle Colorado seasons year after year"
               delay={1.45}
             />
           </motion.div>

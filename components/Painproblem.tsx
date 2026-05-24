@@ -290,39 +290,47 @@ export default function PainProblemSection() {
 
   const pain = [
     {
-      text: "Empty lawns nobody uses",
-      subtext: "Large grassy areas that look plain, feel unfinished, and add little real function to your home",
+      text: "Patchy, thinning lawns",
+      subtext:
+        "Brown spots, bare patches, and tired turf that make your entire property look neglected from the curb",
     },
     {
-      text: "Cracked concrete & uneven surfaces",
-      subtext: "Colorado weather causes shifting, cracking, and constant outdoor repairs over time",
+      text: "Dying plants & faded flower beds",
+      subtext:
+        "Shrubs wilting, perennials failing, and beds that lose color and life with every passing season",
     },
     {
-      text: "Poor drainage & muddy areas",
-      subtext: "Water pooling, erosion, and messy walkways make outdoor spaces frustrating to maintain",
+      text: "Overgrown, chaotic landscaping",
+      subtext:
+        "Weeds creeping in, hedges out of control, and outdoor spaces that feel more stressful than relaxing",
     },
     {
-      text: "Outdoor spaces with no purpose",
-      subtext: "A backyard that exists but never becomes a place to relax, entertain, or enjoy",
+      text: "No layout, no curb appeal",
+      subtext:
+        "A yard with no flow, no focal points, and no reason to step outside it never feels finished or enjoyable",
     },
   ];
 
   const solution = [
     {
-      text: "Functional outdoor living spaces",
-      subtext: "Custom patios, walkways, and gathering areas designed to be used every day",
+      text: "Lush lawns & expert sod installation",
+      subtext:
+        "Thick, healthy turf graded and installed for Colorado soil — green, even, and stunning from day one",
     },
     {
-      text: "Built for Colorado weather",
-      subtext: "Durable pavers and stonework engineered to handle harsh seasons without constant repairs.",
+      text: "Curated planting & landscape design",
+      subtext:
+        "Flower beds, trees, and shrubs thoughtfully placed for balance, color, and natural beauty year-round",
     },
     {
-      text: "Clean, modern curb appeal",
-      subtext: "A polished outdoor space that instantly makes your home feel more premium and complete.",
+      text: "Inviting outdoor spaces you'll live in",
+      subtext:
+        "Walkways, gathering areas, and layered greenery that turn your yard into a daily retreat you'll love",
     },
     {
-      text: "Low-maintenance design",
-      subtext: "Less upkeep, fewer problems, and a backyard that stays beautiful year round.",
+      text: "Low maintenance, lasting beauty",
+      subtext:
+        "Smart plant selection and professional layout mean less upkeep and more time enjoying the outdoors",
     },
   ];
 
@@ -379,9 +387,9 @@ export default function PainProblemSection() {
                 fontWeight: 800,
               }}
             >
-              Your Outdoor Space Should{" "}
+              Your Yard Should Feel Like a{" "}
               <span className="relative inline-block pr-2">
-                Feel Finished,
+                Sanctuary,
                 <ScribbleUnderline
                   color="#E86240"
                   opacity={0.7}
@@ -389,9 +397,9 @@ export default function PainProblemSection() {
                   inView={headInView}
                 />
               </span>{" "}
-              Not{" "}
+              Not a{" "}
               <span className="relative inline-block pr-2">
-                Forgotten
+                Never-Ending Chore
                 <ScribbleUnderline
                   color="#4C2733"
                   opacity={0.4}
@@ -416,9 +424,9 @@ export default function PainProblemSection() {
               }}
               className="text-[#461E2D]/85 text-sm sm:text-xl leading-relaxed mb-6 font-sans font-semibold"
             >
-              Between cracked concrete, unused backyard space, poor drainage,
-              and outdoor areas that never feel finished, many Colorado
-              homeowners end up with spaces they barely use.
+              Between patchy grass, dying plants, overgrown beds, and yards
+              with zero curb appeal, most Colorado homeowners are stuck with
+              outdoor spaces that feel unfinished — and impossible to enjoy.
             </motion.p>
 
             {/* Paragraph 2 - FULLY HIGHLIGHTED WITH CURLY UNDERLINE */}
@@ -433,9 +441,9 @@ export default function PainProblemSection() {
               className="text-dark text-sm sm:text-base font-medium leading-relaxed mb-8 pb-2"
             >
               <CurlyUnderlineText inView={paraInView}>
-                Most homeowners end up spending thousands on outdoor spaces that
-                still feel empty, outdated, or too high maintenance to truly
-                enjoy
+                They spend weekends fighting weeds, replacing dead sod, and
+                guessing at plant placement — only to watch their yard fade
+                again every season, never quite looking the way they imagined.
               </CurlyUnderlineText>
             </motion.p>
 
@@ -450,9 +458,10 @@ export default function PainProblemSection() {
               }}
               className="text-orange font-jakarta font-extrabold text-base sm:text-xl mt-6 leading-relaxed mb-4 "
             >
-              That’s why more Colorado homeowners are investing in modern
-              hardscaping functional outdoor spaces designed to look premium
-              year round without constant repairs or upkeep.
+              That’s why more Colorado homeowners are choosing Ridgewell —
+              professionally designed landscapes with healthier lawns, curated
+              planting, and low-maintenance layouts built for beauty, comfort,
+              and year-round outdoor living.
             </motion.p>
           </div>
         </div>
@@ -468,22 +477,22 @@ export default function PainProblemSection() {
           >
             {[
               {
-                val: 10,
+                val: 15,
                 suffix: "+",
-                unit: "YEARS BUILT TO LAST",
-                label: "through Colorado seasons",
+                unit: "YEARS LOCAL EXPERTISE",
+                label: "mastering Colorado soil & climate",
               },
               {
                 val: 100,
                 suffix: "%",
-                unit: "CUSTOM HARDSCAPES",
-                label: "designed for your property",
+                unit: "CUSTOM DESIGNS",
+                label: "tailored to your property & lifestyle",
               },
               {
-                val: 14,
-                suffix: "",
-                unit: "AVERAGE TRANSFORMATION",
-                label: "from plain yard to premium outdoor space",
+                val: 300,
+                suffix: "+",
+                unit: "YARDS TRANSFORMED",
+                label: "from neglected to breathtaking",
               },
             ].map((s, i) => (
               <div
@@ -522,7 +531,7 @@ export default function PainProblemSection() {
           >
             <div className="flex-1 h-px bg-linear-to-r from-[#461E2D]/50 to-transparent" />
             <span className="text-lg uppercase tracking-wider text-[#461E2D]/70 font-bold whitespace-nowrap font-sans">
-              The Before &amp; After Comparison
+              From Frustration to Transformation
             </span>
             <div className="flex-1 h-px bg-linear-to-l from-[#461E2D]/20 to-transparent" />
           </motion.div>
@@ -573,10 +582,10 @@ export default function PainProblemSection() {
                       </div>
                       <div>
                         <span className="text-sm font-sans uppercase font-black text-[#461E2D]/65 block mb-0.5">
-                          Current State
+                          Your Yard Today
                         </span>
                         <h3 className="text-xl font-black text-[#461E2D] tracking-normal font-sans">
-                          The Traditional Problem
+                          What&apos;s Holding You Back
                         </h3>
                       </div>
                     </div>
@@ -607,8 +616,8 @@ export default function PainProblemSection() {
 
                   {/* Micro Footer Badge */}
                   <div className="mt-8 pt-4 border-t border-[#461E2D]/25 flex items-center justify-between text-[11px] font-bold text-[#461E2D]/40 uppercase tracking-wider  font-sans">
-                    <span>High Friction</span>
-                    <span>Loss Vector</span>
+                    <span>Endless Upkeep</span>
+                    <span>Fading Curb Appeal</span>
                   </div>
                 </motion.div>
               </TiltCard>
@@ -662,7 +671,7 @@ export default function PainProblemSection() {
                   <div className="absolute top-6 right-6 hidden sm:flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#E86240]/15 border border-[#E86240]/30 backdrop-blur-md">
                     <span className="w-2 h-2 rounded-full bg-[#E86240] animate-pulse" />
                     <span className="text-[10px] font-black uppercase tracking-widest text-[#E86240]">
-                      Colorado Optimal
+                      Colorado-Grown
                     </span>
                   </div>
 
@@ -689,7 +698,7 @@ export default function PainProblemSection() {
                           The Ridgewell Landscape Blueprint
                         </span>
                         <h3 className="text-3xl  font-black text-background tracking-tight font-sans">
-                          The Modern Solution
+                          Your Landscape, Transformed
                         </h3>
                       </div>
                     </div>
@@ -737,11 +746,11 @@ export default function PainProblemSection() {
                         ))}
                       </div>
                       <span className="text-sm text-[#F4DEBF]/85 font-medium font-sans ">
-                        Engineered for long term durability
+                        Designed to thrive in Colorado seasons
                       </span>
                     </div>
                     <span className="text-sm font-black uppercase tracking-widest text-[#E86240] bg-[#E86240]/10 px-3 py-1 rounded-lg font-sans ">
-                     BUILT TO LAST
+                      BEAUTY THAT LASTS
                     </span>
                   </div>
                 </motion.div>
@@ -758,9 +767,9 @@ export default function PainProblemSection() {
           className="mt-12 flex flex-wrap items-center justify-center gap-x-6 gap-y-2.5"
         >
           {[
-            "300+ Colorado yards transformed",
-            "15 years local expertise",
-            "Free design consultation layout",
+            "Sod, planting & full landscape design",
+            "Trees, shrubs & flower beds included",
+            "Free on-site property consultation",
           ].map((item, i) => (
             <span
               key={i}
@@ -781,7 +790,7 @@ export default function PainProblemSection() {
             className="inline-flex flex-col items-center gap-4"
           >
             <p className="text-sm font-bold text-[#E86240] uppercase tracking-wider font-sans ">
-              Ready for the switch?
+              Ready to love your yard again?
             </p>
 
             <motion.a
@@ -798,14 +807,14 @@ export default function PainProblemSection() {
               {/* Subtle hover sweep element anim layout */}
               <span className="absolute inset-0 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000 ease-out bg-gradient-to-r from-transparent via-white/10 to-transparent" />
               <span className="relative text-sm sm:text-base font-bold tracking-[0.03em] text-white">
-                Get Your Free Design Consultation
+                Get Your Free Landscape Consultation
               </span>
               <ArrowRight className="relative w-4 h-4 text-white/90 transition-transform duration-300 group-hover:translate-x-1" />
             </motion.a>
 
             <p className="text-[15px] text-[#461E2D]/75 mt-1 font-sans font-semibold">
-              No commitment &nbsp;·&nbsp; Property assessment included
-              &nbsp;·&nbsp; Timeline 4–6 weeks
+              No commitment &nbsp;·&nbsp; On-site assessment included
+              &nbsp;·&nbsp; Most projects complete in 4–6 weeks
             </p>
           </motion.div>
         </div>
