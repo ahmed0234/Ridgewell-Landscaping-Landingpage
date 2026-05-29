@@ -32,12 +32,14 @@ import DesertHorizonEdge from "@/components/Deserthorizon";
 /** Default service images — paths match public/services filenames exactly */
 const DEFAULT_IMAGES = {
   design: "/services/xeriscaping_land.png",
-  beforeLawn: "/services/After_xeriscape_image.png",
-  afterXeri: "/services/Before_xesriscape_image.png",
+  beforeLawn: "/services/Before_xesriscape_image.png",
+  afterXeri: "/services/After_xeriscape_image.png",
   rockGravel: "/services/Decorative_rock_gravel.png",
   plants: "/services/Drought_resistant_plants.png",
   irrigation: "/services/Smart_irrigation_system.png",
   walkway: "/services/Walkways_outdoor_features.png",
+  Sod: "/services/Sod.png",
+  Flower: "/services/Flower.png",
 } as const;
 
 // ─── Topo background lines (decorative only, no illustrations) ───────────────
@@ -514,8 +516,8 @@ const BeforeAfterBlock = ({ beforeImage, afterImage, index }) => {
           <span className="text-[#F4DEBF]/45 uppercase text-xs tracking-widest font-bold mr-2">
             Before
           </span>
-          Patchy grass, overgrown beds, struggling plants, and a yard that feels dull and hard to maintain.
-          unused.
+          Patchy grass, overgrown beds, struggling plants, and a yard that feels
+          dull and hard to maintain. unused.
         </p>
         <p
           className="font-satoshi font-semibold text-sm leading-snug sm:text-right"
@@ -524,7 +526,8 @@ const BeforeAfterBlock = ({ beforeImage, afterImage, index }) => {
           <span className="text-[#E86240] uppercase text-xs tracking-widest font-bold mr-2">
             After
           </span>
-          Beautiful professionally designed landscaping with healthy greenery, balanced design, and a yard you actually enjoy coming home to.
+          Beautiful professionally designed landscaping with healthy greenery,
+          balanced design, and a yard you actually enjoy coming home to.
         </p>
       </div>
     </motion.div>
@@ -817,14 +820,14 @@ export default function ServicesSection({
       title: "Sod Installation & Healthy Lawn Systems",
       body: "Add safe, stylish poolside surfaces with durable stone decking built for comfort, drainage, and long term use",
       accent: "Finishing Touch",
-      image: img("walkway", "Walkway and Outdoor Features"),
+      image: img("Sod", "Sod"),
     },
     {
       number: "08",
       title: "Flower Beds, Perennials & Decorative Planting",
       body: "Give your landscape a cleaner, more finished look with durable edging that keeps everything organized and defined",
       accent: "Finishing Touch",
-      image: img("walkway", "Walkway and Outdoor Features"),
+      image: img("Flower", "Flower"),
     },
   ];
 

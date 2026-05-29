@@ -311,7 +311,7 @@ export default function HeroSection() {
               className="text-[11.5px] 2xl:text-sm font-bold tracking-widest uppercase font-satoshi"
               style={{ color: C.deepPlum }}
             >
-              Colorado's Premier Hardscaping Company
+              Colorado's Premier Landscaping Company
             </span>
           </motion.div>
 

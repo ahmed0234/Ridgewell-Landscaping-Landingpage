@@ -172,10 +172,9 @@ export default function TransformationSection() {
               <p className="text-base lg:text-lg  text-foreground/55 font-body leading-normal font-sans">
                 Real landscaping transformations that take neglected outdoor
                 spaces and turn them into beautiful, inviting yards designed for
-                healthier growth,  {" "}
+                healthier growth,{" "}
                 <strong className="text-foreground/80 font-semibold font-satoshi">
-                easier maintenance, and a home that feels
-                complete.
+                  easier maintenance, and a home that feels complete.
                 </strong>
               </p>
             </motion.div>
